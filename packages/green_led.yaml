@@ -2,7 +2,7 @@ light:
   - platform: monochromatic
     name: "${name} green led"
     output: output0
-    id: led_green
+    restore_mode: ALWAYS_ON
 
 output:
   - platform: ledc
@@ -10,6 +10,3 @@ output:
     id: output0
     inverted: true
 
-on_boot:
-  then:
-    - light.turn_on: led_green
