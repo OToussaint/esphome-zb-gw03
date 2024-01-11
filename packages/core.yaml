@@ -29,12 +29,7 @@ esphome:
 esp32:
   board: esp-wrover-kit
   framework:
-    type: esp-idf
-    version: latest
-    sdkconfig_options:
-      COMPILER_OPTIMIZATION_SIZE: y
-    advanced:
-      ignore_efuse_mac_crc: false
+    type: arduino
       
 external_components:
   - source: github://oxan/esphome-stream-server
