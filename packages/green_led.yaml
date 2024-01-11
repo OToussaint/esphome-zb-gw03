@@ -2,9 +2,14 @@ light:
   - platform: monochromatic
     name: "${name} green led"
     output: output0
+    id: led_green
 
 output:
   - platform: ledc
     pin: GPIO14
     id: output0
     inverted: true
+
+on_boot:
+  then:
+    - light.turn_on: led_green
