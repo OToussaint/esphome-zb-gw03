@@ -39,7 +39,7 @@ ota:
 logger:
   level: DEBUG
 
-api:
+# api:
 
 uart:
   id: uart_zigbee
