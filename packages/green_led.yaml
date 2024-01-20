@@ -1,6 +1,6 @@
 light:
   - platform: monochromatic
-    name: "${name} green led"
+    name: "${name} Green led"
     output: output0
     restore_mode: ALWAYS_ON
 
