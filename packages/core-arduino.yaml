@@ -32,7 +32,7 @@ esp32:
     type: arduino
       
 external_components:
-  - source: github://oxan/esphome-stream-server
+  - source: github://OlivierToussaint/esphome-stream-server
 
 ota:
 
