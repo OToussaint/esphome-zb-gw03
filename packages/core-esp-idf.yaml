@@ -33,6 +33,8 @@ esp32:
       
 external_components:
   - source: github://oxan/esphome-stream-server
+    components: [ stream_server ]
+    refresh: 0s  # Force le rafraîchissement
 
 ota:
 
